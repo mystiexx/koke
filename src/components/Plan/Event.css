@@ -1,0 +1,59 @@
+.e {
+    padding-bottom: 10%;
+}
+.e-image {
+    display: flex;
+    justify-content: center;
+}
+
+.e-header {
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 3%;
+    color: #1c3548;
+}
+
+.e-card {
+    position: relative;
+    background-color: #EFF7F6;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 3%;
+    overflow: hidden;
+    box-shadow: -4px -4px 4px #F4FFFE, 4px 4px 4px #D9E1E0;
+}
+
+.e-card:hover:before {
+    left: 1140px;
+    cursor: pointer;
+}
+
+.e-card:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 100px;
+    height: 100%;
+    background-color:  rgba(225, 225, 225, 0.3);
+    transform: skewX(-30deg);
+    transition: 0.5s;
+}
+
+.e-text {
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 960px) {
+    .e-image {
+        width: 100%;
+        height: auto;
+    }
+}
+

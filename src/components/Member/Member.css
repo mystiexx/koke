@@ -1,0 +1,39 @@
+.sign {
+    background: #fff;
+}
+
+.text-input{
+    width: 100%;
+}
+
+h4 {
+    font-family: 'Poppins', cursive;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.box {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: #fff;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.particles {
+    display: block;
+    z-index: 1;
+    height: 120vh;
+}
+
+.frame {
+    background-image:  linear-gradient(180deg, #000000 0%, rgba(12, 18, 24, 0.17) 100%), url('../../resources/member.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}

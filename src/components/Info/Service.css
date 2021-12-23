@@ -1,0 +1,30 @@
+.header {
+    background-image: linear-gradient(180deg, #000000 0%, rgba(12, 18, 24, 0.17) 100%),
+        url("../../resources/sh.jpg");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.head {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text {
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 90px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
